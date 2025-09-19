@@ -6,8 +6,7 @@ This repository contains the **code** and **instructions** to reproduce the expe
 >
 > Manuscript ID - IEEE LATAM Submission ID: 9658
 >
-> Authors: Sadala Nagib Salame Neto (sadalaneto@ufpa.br), Kaique da Silva Pinto (kaique.pinto@itec.ufpa.br), Silvio Tadeu Teles da Silva (silvio.teles@itec.ufpa.br),  
-> Míercio Cardoso de Alcântara Neto (miercio@ufpa.br)
+> Authors: Sadala Nagib Salame Neto (sadalaneto@ufpa.br), Kaique da Silva Pinto (kaique.pinto@itec.ufpa.br), Silvio Tadeu Teles da Silva (silvio.teles@itec.ufpa.br), Míercio Cardoso de Alcântara Neto (miercio@ufpa.br)
 >
 > Year: 2025
 
@@ -39,6 +38,7 @@ Any use in production must undergo an **ethical review** and involve **mental he
 ## 📄 License
 
 This project is licensed under the MIT License.  
+
 
 
 
