@@ -38,8 +38,5 @@ Any use in production must undergo an **ethical review** and involve **mental he
 
 This project is licensed under the MIT License.  
 
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT.  
 
 
