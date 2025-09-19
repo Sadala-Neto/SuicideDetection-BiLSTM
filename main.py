@@ -106,11 +106,6 @@ print("\n====================================")
 print("Inicio do Pré-processamento")
 print("====================================")
 
-# Crie uma cópia do DataFrame ANTES do pré-processamento
-df_original_pre_processing = df_suicide_data.copy() # Renomeado para evitar confusão
-df_suicide_data = df_suicide_data.reset_index(drop=True)
-df_original_pre_processing = df_original_pre_processing.reset_index(drop=True)
-
 # Pré-processamento dos dados
 stop_words = set(stopwords.words('english'))
 
@@ -129,7 +124,7 @@ def preprocess_text(text):
     # Remover múltiplos espaços em branco e espaços nas bordas
     text = ' '.join(text.split())
     # Remover stop words
-    text = ' '.join(word for word in text.split() if word not in stop_words) #basta comente essa linha para o dataset com stopwords
+    text = ' '.join(word for word in text.split() if word not in stop_words) # comente essa linha para o dataset com stopwords
     return text
 
 df_suicide_data['text'] = df_suicide_data['text'].apply(preprocess_text)
@@ -232,7 +227,6 @@ class_weights = dict(zip(classes, weights))
 print("Pesos de classe:", class_weights)
 print()
 
-
 #criterio de parada & Define o callback EarlyStopping
 early_stopping_loss = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True, verbose=1)
 reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3, min_lr=1e-6, verbose=1)
@@ -272,5 +266,6 @@ avaliar_modelo(model, X_test, y_test, "Teste")
 print("====================================")
 print("Fim da Analise usando a RNA")
 print("====================================")
+
 
 # endregion
