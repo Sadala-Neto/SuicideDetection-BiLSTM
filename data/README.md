@@ -35,7 +35,7 @@ Os dados utilizados são de terceiros e devem ser baixados separadamente.
 
 4. **Confirmar caminhos**  
 Verifique se o nome do arquivo CSV corresponde ao que está configurado no código (por padrão: `Suicide_Detection.csv`).  
-Caso o arquivo tenha outro nome, altere no código.
+Caso o arquivo tenha outro nome ou outro caminho, altere no código.
 
 ---
 
@@ -50,4 +50,5 @@ O manuseio dos dados deve seguir protocolos éticos e, sempre que possível, ser
 ## 📄 Licenciamento
 
 Consulte a página do Kaggle para verificar termos de uso e licenciamento.  
+
 Este repositório **não distribui** o dataset, apenas instrui como obtê-lo.
