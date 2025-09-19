@@ -203,14 +203,14 @@ print("====================================")
 #criação do modelo
 model = Sequential()
 model.add(Input(shape=(max_len,)))
-model.add(Embedding(vocab_size, 100)) #model.add(Embedding(vocab_size, 100, input_length=max_len))
+model.add(Embedding(vocab_size, 100)) 
 model.add(Dropout(0.3))
 model.add(Conv1D(32, 5, activation='relu', padding='same'))
 model.add(MaxPooling1D(pool_size=2))
 model.add(BatchNormalization())
-model.add(Bidirectional(LSTM(32, dropout=0.3, recurrent_dropout=0.3, kernel_regularizer=regularizers.l2(0.001), recurrent_regularizer=regularizers.l2(0.001))))#64;0.2;0.2; 0.001
+model.add(Bidirectional(LSTM(32, dropout=0.3, recurrent_dropout=0.3, kernel_regularizer=regularizers.l2(0.001), recurrent_regularizer=regularizers.l2(0.001))))
 model.add(Dropout(0.5))
-model.add(Dense(16, activation='relu', kernel_regularizer=regularizers.l2(0.001))) #32; 0.001
+model.add(Dense(16, activation='relu', kernel_regularizer=regularizers.l2(0.001)))
 model.add(BatchNormalization())
 model.add(Dropout(0.4))
 model.add(Dense(1, activation='sigmoid'))
@@ -234,7 +234,7 @@ callbacks_list = [early_stopping_loss, reduce_lr]
 
 #Treinamento do modelo
 print("Inicio do treinamento")
-rna = model.fit(X_train, y_train, epochs=25, batch_size=1000, validation_data=(X_val, y_val), callbacks=callbacks_list, class_weight=class_weights) #batch_size=5000
+rna = model.fit(X_train, y_train, epochs=25, batch_size=1000, validation_data=(X_val, y_val), callbacks=callbacks_list, class_weight=class_weights) 
 
 def avaliar_modelo(model, X, y, nome_conjunto="Teste"):
     print(f"\n Avaliação no conjunto de {nome_conjunto.upper()}:")
@@ -269,3 +269,4 @@ print("====================================")
 
 
 # endregion
+
