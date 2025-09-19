@@ -1,39 +1,44 @@
-# 🧠 Detecção de Ideação Suicida em Redes Sociais usando BiLSTM
+# 🧠 Suicidal Ideation Detection in Social Media using BiLSTM
 
-Este repositório contém o **código** e as **instruções** para reproduzir os experimentos do artigo:
+This repository contains the **code** and **instructions** to reproduce the experiments from the article:
 
-> **Uso de redes neurais para auxílio, detecção e prevenção de suicídio**
-> 
-> Autores: Sadala Nagib Salame Neto, Kaique da Silva Pinto, Silvio Tadeu Teles da Silva,
+> **Use of neural networks to assist in, detection, and prevention of suicide**
+>
+> Authors: Sadala Nagib Salame Neto, Kaique da Silva Pinto, Silvio Tadeu Teles da Silva,  
 > Míercio Cardoso de Alcântara Neto
-> 
-> Ano: 2025
+>
+> Year: 2025
 
 ---
 
-## 🚀 Introdução
+## 🚀 Introduction
 
-O objetivo deste projeto é aplicar técnicas de **Processamento de Linguagem Natural (PLN)** e **redes neurais profundas** para detectar postagens em redes sociais com **indícios de ideação suicida**.  
-Foi utilizada uma arquitetura híbrida **CNN + BiLSTM** com resultados competitivos.
-
----
-
-## 📊 Principais Resultados
-
-| Configuração             | Acurácia | F1-score |
-|--------------------------|----------|----------|
-| Com remoção de stopwords | 95,57%   | 95,59%   |
-| Sem remoção de stopwords | 95,80%   | 95,85%   |
+The goal of this project is to apply **Natural Language Processing (NLP)** techniques and **deep neural networks** to detect social media posts with **indications of suicidal ideation**.  
+A hybrid **CNN + BiLSTM** architecture was used, achieving competitive results.
 
 ---
 
-## ⚠️ Aviso ético
+## 📊 Main Results
 
-Este projeto é **exclusivamente acadêmico**.  
-O uso em produção deve passar por **revisão ética** e contar com **profissionais de saúde mental**.
+| Configuration             | Accuracy | F1-score |
+|---------------------------|----------|----------|
+| With stopwords removal    | 95.57%   | 95.59%   |
+| Without stopwords removal | 95.80%   | 95.85%   |
 
 ---
+
+## ⚠️ Ethical Disclaimer
+
+This project is **strictly academic**.  
+Any use in production must undergo an **ethical review** and involve **mental health professionals**.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
 
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.  
+
