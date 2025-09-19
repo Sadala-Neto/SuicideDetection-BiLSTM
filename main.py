@@ -124,7 +124,10 @@ def preprocess_text(text):
     # Remover múltiplos espaços em branco e espaços nas bordas
     text = ' '.join(text.split())
     # Remover stop words
-    text = ' '.join(word for word in text.split() if word not in stop_words) # comente essa linha para o dataset com stopwords
+    # ⚠️ IMPORTANTE:
+    # - Mantenha esta linha ativa → versão SEM stopwords
+    # - Comente esta linha → versão COM stopwords
+    text = ' '.join(word for word in text.split() if word not in stop_words)
     return text
 
 df_suicide_data['text'] = df_suicide_data['text'].apply(preprocess_text)
@@ -269,4 +272,5 @@ print("====================================")
 
 
 # endregion
+
 
