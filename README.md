@@ -2,7 +2,7 @@
 
 This repository contains the **code** and **instructions** to reproduce the experiments from the article:
 
-> **Use of neural networks to assist in, detection, and prevention of suicide**
+> **Using neural networks to assist in, detect, and prevent suicide**
 >
 > Authors: Sadala Nagib Salame Neto, Kaique da Silva Pinto, Silvio Tadeu Teles da Silva,  
 > Míercio Cardoso de Alcântara Neto
@@ -41,4 +41,5 @@ This project is licensed under the MIT License.
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.  
+
 
