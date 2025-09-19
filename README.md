@@ -4,6 +4,8 @@ This repository contains the **code** and **instructions** to reproduce the expe
 
 > **Using neural networks to assist in, detect, and prevent suicide**
 >
+> Manuscript ID - IEEE LATAM Submission ID: 9658
+>
 > Authors: Sadala Nagib Salame Neto, Kaique da Silva Pinto, Silvio Tadeu Teles da Silva,  
 > Míercio Cardoso de Alcântara Neto
 >
@@ -37,6 +39,7 @@ Any use in production must undergo an **ethical review** and involve **mental he
 ## 📄 License
 
 This project is licensed under the MIT License.  
+
 
 
 
