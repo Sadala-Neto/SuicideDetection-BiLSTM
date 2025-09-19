@@ -1,16 +1,16 @@
-# Bibliotecas utilizadas
+# Libraries used
 pandas
 numpy
 scikit-learn
 nltk
 beautifulsoup4
 
-# TensorFlow / Keras (para a BiLSTM)
+# TensorFlow / Keras (for the BiLSTM)
 tensorflow
 keras
 
-# Utilizado no pré-processamento de HTML e limpeza de texto
+# Used for HTML preprocessing and text cleaning
 bs4
 
-# Para a execução local é recomendado utilizar a versão 3.11
+# For local execution, it is recommended to use version 3.11
 Python == 3.11
