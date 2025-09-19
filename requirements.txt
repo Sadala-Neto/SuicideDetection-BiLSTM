@@ -12,5 +12,3 @@ keras
 # Used for HTML preprocessing and text cleaning
 bs4
 
-# For local execution, it is recommended to use version 3.11
-Python == 3.11
