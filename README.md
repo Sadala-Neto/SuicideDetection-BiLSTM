@@ -37,4 +37,3 @@ O uso em produção deve passar por **revisão ética** e contar com **profissio
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.  
-Consulte o arquivo [LICENSE](LICENSE) para mais informações.
