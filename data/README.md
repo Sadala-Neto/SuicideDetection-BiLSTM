@@ -1,54 +1,54 @@
-# 📂 Pasta `data/`
+# 📂 `data/` Folder
 
-Esta pasta deve conter os arquivos de dados necessários para o treinamento e avaliação do modelo.
+This folder should contain the data files required for training and evaluating the model.
 
-⚠️ **Atenção:**  
-Por questões de **licenciamento, privacidade e ética**, **os dados originais não estão incluídos** neste repositório.  
-Os dados utilizados são de terceiros e devem ser baixados separadamente.
+⚠️ **Attention:**  
+For **licensing, privacy, and ethical** reasons, **the original data is not included** in this repository.  
+The data used is third-party and must be downloaded separately.
 
 ---
 
-## 📦 Dataset utilizado
+## 📦 Dataset used
 
-- **Nome**: Suicide and Depression Detection
-- **Origem**: Kaggle
-- **Link para download**: [https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch)
-- **Autor(es)**: Nikhileswar Komati et al.
-- **Formato**: CSV
+- **Name**: Suicide and Depression Detection
+- **Source**: Kaggle
+- **Download link**: [https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch)
+- **Author(s)**: Nikhileswar Komati et al.
+- **Format**: CSV
 - **Classes**:
-  - `suicide`: postagens com indícios de ideação suicida
-  - `non-suicide`: postagens sem indícios de ideação suicida
-- **Total de amostras**: 232.074 postagens (balanceadas em duas classes)
+  - `suicide`: posts with indications of suicidal ideation
+  - `non-suicide`: posts without indications of suicidal ideation
+- **Total samples**: 232,074 posts (balanced across two classes)
 
 ---
 
-## 🛠️ Instruções de uso
+## 🛠️ Usage instructions
 
-1. **Baixar o dataset**  
-   Acesse o link do Kaggle e faça o download do arquivo ZIP.
+1. **Download the dataset**  
+   Go to the Kaggle link above and download the ZIP file.
 
-2. **Extrair o conteúdo**  
-   Extraia o arquivo baixado para obter os arquivos `.csv`.
+2. **Extract the contents**  
+   Extract the downloaded file to obtain the `.csv` files.
 
-3. **Organizar os dados**  
-   Coloque os arquivos `.csv` na pasta `data/` deste repositório.
+3. **Organize the data**  
+   Place the `.csv` files inside the `data/` folder of this repository.
 
-4. **Confirmar caminhos**  
-Verifique se o nome do arquivo CSV corresponde ao que está configurado no código (por padrão: `Suicide_Detection.csv`).  
-Caso o arquivo tenha outro nome ou outro caminho, altere no código.
-
----
-
-## 📜 Observação ética
-
-O dataset contém **postagens sensíveis** sobre ideação suicida.  
-Use-o **somente para fins acadêmicos ou de pesquisa**.  
-O manuseio dos dados deve seguir protocolos éticos e, sempre que possível, ser supervisionado por profissionais da área de saúde mental.
+4. **Verify file paths**  
+   Ensure the CSV filename matches what is configured in the code (default: `Suicide_Detection.csv`).  
+   If the file has a different name or path, update it in the code.
 
 ---
 
-## 📄 Licenciamento
+## 📜 Ethical note
 
-Consulte a página do Kaggle para verificar termos de uso e licenciamento.  
+The dataset contains **sensitive posts** about suicidal ideation.  
+Use it **only for academic or research purposes**.  
+Handling of this data must follow ethical guidelines and, whenever possible, be supervised by mental health professionals.
 
-Este repositório **não distribui** o dataset, apenas instrui como obtê-lo.
+---
+
+## 📄 Licensing
+
+Refer to the Kaggle page for terms of use and licensing.  
+
+This repository **does not distribute** the dataset, it only provides instructions on how to obtain it.
