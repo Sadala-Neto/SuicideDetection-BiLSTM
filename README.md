@@ -23,8 +23,8 @@ A hybrid **CNN + BiLSTM** architecture was used, achieving competitive results.
 
 | Configuration             | Accuracy | F1-score |
 |---------------------------|----------|----------|
-| With stopwords removal    | 95.57%   | 95.59%   |
-| Without stopwords removal | 95.80%   | 95.85%   |
+| With stopwords removal    | 95.60%   | 95.60%   |
+| Without stopwords removal | 95.77%   | 95.79%   |
 
 ---
 
@@ -38,6 +38,7 @@ Any use in production must undergo an **ethical review** and involve **mental he
 ## 📄 License
 
 This project is licensed under the MIT License.  
+
 
 
 
