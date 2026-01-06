@@ -1,8 +1,8 @@
-# 🧠 Suicidal Ideation Detection in Social Media using BiLSTM
+# 🧠 Automatic detection of suicidal ideation on social media using a hybrid CNN–BiLSTM architecture
 
 This repository contains the **code** and **instructions** to reproduce the experiments from the article:
 
-> **Using neural networks to assist in, detect, and prevent suicide**
+> **Automatic detection of suicidal ideation on social media using a hybrid CNN–BiLSTM architecture**
 >
 > Manuscript ID - IEEE LATAM Submission ID: 10144
 >
@@ -38,6 +38,7 @@ Any use in production must undergo an **ethical review** and involve **mental he
 ## 📄 License
 
 This project is licensed under the MIT License.  
+
 
 
 
